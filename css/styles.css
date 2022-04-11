@@ -1,0 +1,344 @@
+/*<----------NAVBAR---------->*/
+
+@media (min-width: 0px) {
+
+    .navbar-toggler {
+        margin: 0 0 0 82%;
+    }
+
+    .navbar-nav {
+        background: rgb(243, 243, 243);
+        margin-left: 35%;
+    }
+
+    #traducao {
+        margin: 0 0 0 5%;
+        width: 20px;
+    }
+
+}
+
+@media (min-width: 768px) {
+
+    .navbar-toggler {
+        margin: 0 0 0 90%;
+    }
+
+    #traducao {
+        margin: 0 0 0 2.5%;
+        width: 20px;
+    }
+
+}
+
+@media (min-width: 1024px) {
+
+    .navbar-nav {
+        background: rgb(153, 255, 0);
+        width: 480px;
+        margin: 0 0 0 25%;
+    }
+
+
+}
+
+@media (min-width: 1440px) {
+
+    .navbar-nav {
+        background: rgb(153, 255, 0);
+        width: 480px;
+        margin: 0 0 0 32%;
+    }
+
+
+}
+
+@media (min-width: 2560px) {
+
+    .navbar-nav {
+        background: rgb(153, 255, 0);
+        width: 805px;
+        margin: 0 0 0 35%;
+        font-size: 30px;
+    }
+
+    #traducao {
+        margin: 0 0 0 2.5%;
+        width: 30px;
+    }
+
+}
+
+/*<----------PERFIL---------->*/
+
+@media (min-width: 0px) {
+
+    #perfil {
+        border: 1px solid red;
+    }
+
+    #perfil img {
+        display: flex;
+        margin-top: 20%;
+        margin-bottom: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        border: 3px solid rgb(225, 225, 225);
+        border-radius: 100%;
+    }
+
+    #perfil h2 {
+        color: rgba(83, 218, 0, 0.9);
+        margin: 0 0 0 25%;
+        font-size: 100%;
+    }
+
+    #perfil h1 {
+        margin: 0 0 0 10%;
+        font-size: 90%;
+    }
+
+    #perfil p {
+        font-style: italic;
+        margin: 2% 0 0 2%;
+        font-size: 100%;
+    }
+
+
+
+}
+
+@media (min-width: 375px) {
+
+    #perfil {
+        border: 1px solid red;
+    }
+
+    #perfil img {
+        display: flex;
+        margin-top: 20%;
+        margin-bottom: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        border: 3px solid rgb(225, 225, 225);
+        border-radius: 100%;
+    }
+
+    #perfil h2 {
+        color: rgba(83, 218, 0, 0.9);
+        margin: 0 0 0 20%;
+        font-size: 140%;
+    }
+
+    #perfil h1 {
+        margin: 0 0 0 3em;
+        font-size: 1em;
+    }
+
+    #perfil p {
+        font-style: italic;
+        margin: 5% 0 0 5%;
+        font-size: 100%;
+    }
+
+
+
+}
+
+@media (min-width: 425px) {
+
+    #perfil {
+        border: 1px solid red;
+    }
+
+    #perfil img {
+        display: flex;
+        margin-top: 20%;
+        margin-bottom: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        border: 3px solid rgb(225, 225, 225);
+        border-radius: 100%;
+    }
+
+    #perfil h2 {
+        color: rgba(83, 218, 0, 0.9);
+        margin: 0 0 0 23%;
+        font-size: 140%;
+    }
+
+    #perfil h1 {
+        margin: 0 0 0 14%;
+        font-size: 110%;
+    }
+
+    #perfil p {
+        font-style: italic;
+        margin: 5% 1% 0 1.2%;
+        text-align: center;
+        font-size: 100%;
+    }
+
+
+
+}
+
+@media (min-width: 768px) {
+
+    #perfil {
+        border: 1px solid red;
+    }
+
+    #perfil img {
+        display: flex;
+        margin-top: 10%;
+        margin-bottom: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+        border: 3px solid rgb(225, 225, 225);
+        border-radius: 100%;
+    }
+
+    #perfil h2 {
+        color: rgba(83, 218, 0, 0.9);
+        margin: 0 0 0 32%;
+        font-size: 170%;
+    }
+
+    #perfil h1 {
+        margin: 0 0 0 23%;
+        font-size: 140%;
+    }
+
+    #perfil p {
+        font-style: italic;
+        margin: 5% 5% 0 5%;
+        text-align: left;
+        font-size: 100%;
+    }
+
+
+
+}
+
+@media (min-width: 1024px) {
+
+    #perfil {
+        border: 1px solid red;
+    }
+
+    #perfil img {
+        display: flex;
+        margin-top: 15%;
+        margin-bottom: 5%;
+        margin-left: 70%;
+        margin-right: auto;
+        width: 15%;
+        border: 3px solid rgb(225, 225, 225);
+        border-radius: 100%;
+    }
+
+    #perfil h2 {
+        color: rgba(83, 218, 0, 0.9);
+        margin: -15% 0 0 22%;
+        font-size: 220%;
+    }
+
+    #perfil h1 {
+        margin: 0 0 0 20%;
+        font-size: 140%;
+    }
+
+    #perfil p {
+        font-style: italic;
+        margin: 5% 10% 0 10%;
+        font-size: 100%;
+        text-align: left;
+
+    }
+
+
+
+}
+
+@media (min-width: 1440px) {
+
+    #perfil {
+        border: 1px solid red;
+    }
+
+    #perfil img {
+        display: flex;
+        margin-top: 15%;
+        margin-bottom: 5%;
+        margin-left: 70%;
+        margin-right: auto;
+        width: 15%;
+        border: 3px solid rgb(225, 225, 225);
+        border-radius: 100%;
+    }
+
+    #perfil h2 {
+        color: rgba(83, 218, 0, 0.9);
+        margin: -15% 0 0 24%;
+        font-size: 250%;
+    }
+
+    #perfil h1 {
+        margin: 0 0 0 20%;
+        font-size: 200%;
+    }
+
+    #perfil p {
+        font-style: italic;
+        margin: 8% 10% 0 10%;
+        font-size: 100%;
+        text-align: left;
+    }
+
+
+
+}
+
+@media (min-width: 2560px) {
+
+    #perfil {
+        border: 1px solid red;
+    }
+
+    #perfil img {
+        display: flex;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        margin-left: 70%;
+        margin-right: auto;
+        width: 10%;
+        border: 3px solid rgb(225, 225, 225);
+        border-radius: 100%;
+    }
+
+    #perfil h2 {
+        color: rgba(83, 218, 0, 0.9);
+        margin: -17% 0 0 30%;
+        font-size: 400%;
+    }
+
+    #perfil h1 {
+        margin: 0 0 0 29%;
+        font-size: 250%;
+    }
+
+    #perfil p {
+        font-style: italic;
+        margin: 5% 10% 0 10%;
+        font-size: 180%;
+        text-align: left;
+    }
+
+
+
+}
