@@ -3,7 +3,7 @@
 @media (min-width: 0px) {
 
     .navbar-toggler {
-        margin: 0 0 0 82%;
+        margin: 0 0 0 80%;
     }
 
     .navbar-nav {
@@ -11,8 +11,12 @@
         margin-left: 35%;
     }
 
+    .navbar-nav a {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
     #traducao {
-        margin: 0 0 0 5%;
+        margin: 0 0 0 1.3rem;
         width: 20px;
     }
 
@@ -35,7 +39,7 @@
 
     .navbar-nav {
         background: rgb(153, 255, 0);
-        width: 480px;
+        width: 520px;
         margin: 0 0 0 25%;
     }
 
@@ -46,7 +50,7 @@
 
     .navbar-nav {
         background: rgb(153, 255, 0);
-        width: 480px;
+        width: 530px;
         margin: 0 0 0 32%;
     }
 
@@ -57,7 +61,7 @@
 
     .navbar-nav {
         background: rgb(153, 255, 0);
-        width: 805px;
+        width: 900px;
         margin: 0 0 0 35%;
         font-size: 30px;
     }
@@ -68,6 +72,9 @@
     }
 
 }
+/*<==========================>*/
+
+
 
 /*<----------PERFIL---------->*/
 
@@ -79,8 +86,8 @@
 
     #perfil img {
         display: flex;
-        margin-top: 20%;
-        margin-bottom: 5%;
+        margin-top: 5rem;
+        margin-bottom: 1rem;
         margin-left: auto;
         margin-right: auto;
         width: 40%;
@@ -90,7 +97,7 @@
 
     #perfil h2 {
         color: rgba(83, 218, 0, 0.9);
-        margin: 0 0 0 25%;
+        margin: 0 0 0 5rem;
         font-size: 100%;
     }
 
