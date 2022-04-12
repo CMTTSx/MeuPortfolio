@@ -97,13 +97,17 @@
 
     #perfil h2 {
         color: rgba(83, 218, 0, 0.9);
-        margin: 0 0 0 5rem;
-        font-size: 100%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 140%;
     }
 
     #perfil h1 {
-        margin: 0 0 0 10%;
-        font-size: 90%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 110%;
     }
 
     #perfil p {
@@ -124,8 +128,8 @@
 
     #perfil img {
         display: flex;
-        margin-top: 20%;
-        margin-bottom: 5%;
+        margin-top: 5rem;
+        margin-bottom: 1rem;
         margin-left: auto;
         margin-right: auto;
         width: 40%;
@@ -135,18 +139,22 @@
 
     #perfil h2 {
         color: rgba(83, 218, 0, 0.9);
-        margin: 0 0 0 20%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
         font-size: 140%;
     }
 
     #perfil h1 {
-        margin: 0 0 0 3em;
-        font-size: 1em;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 110%;
     }
 
     #perfil p {
         font-style: italic;
-        margin: 5% 0 0 5%;
+        margin: 2% 0 0 2%;
         font-size: 100%;
     }
 
@@ -154,7 +162,7 @@
 
 }
 
-@media (min-width: 425px) {
+@media (min-width: 375px) {
 
     #perfil {
         border: 1px solid red;
@@ -162,8 +170,8 @@
 
     #perfil img {
         display: flex;
-        margin-top: 20%;
-        margin-bottom: 5%;
+        margin-top: 5rem;
+        margin-bottom: 1rem;
         margin-left: auto;
         margin-right: auto;
         width: 40%;
@@ -173,19 +181,22 @@
 
     #perfil h2 {
         color: rgba(83, 218, 0, 0.9);
-        margin: 0 0 0 23%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
         font-size: 140%;
     }
 
     #perfil h1 {
-        margin: 0 0 0 14%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
         font-size: 110%;
     }
 
     #perfil p {
         font-style: italic;
-        margin: 5% 1% 0 1.2%;
-        text-align: center;
+        margin: 2% 0 0 2%;
         font-size: 100%;
     }
 
@@ -201,30 +212,33 @@
 
     #perfil img {
         display: flex;
-        margin-top: 10%;
-        margin-bottom: 5%;
+        margin-top: 5rem;
+        margin-bottom: 1rem;
         margin-left: auto;
         margin-right: auto;
-        width: 30%;
+        width: 25%;
         border: 3px solid rgb(225, 225, 225);
         border-radius: 100%;
     }
 
     #perfil h2 {
         color: rgba(83, 218, 0, 0.9);
-        margin: 0 0 0 32%;
-        font-size: 170%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 160%;
     }
 
     #perfil h1 {
-        margin: 0 0 0 23%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
         font-size: 140%;
     }
 
     #perfil p {
         font-style: italic;
-        margin: 5% 5% 0 5%;
-        text-align: left;
+        margin: 2% 1% 0 2%;
         font-size: 100%;
     }
 
@@ -240,32 +254,35 @@
 
     #perfil img {
         display: flex;
-        margin-top: 15%;
-        margin-bottom: 5%;
-        margin-left: 70%;
-        margin-right: auto;
-        width: 15%;
+        margin-top: 10rem;
+        margin-bottom: 1rem;
+        margin-left: auto;
+        margin-right: 150px;
+        width: 20%;
         border: 3px solid rgb(225, 225, 225);
         border-radius: 100%;
     }
 
     #perfil h2 {
         color: rgba(83, 218, 0, 0.9);
-        margin: -15% 0 0 22%;
-        font-size: 220%;
+        text-align: center;
+        margin-top: -3.7em;
+        margin-left: auto;
+        margin-right: 10em;
+        font-size: 210%;
     }
 
     #perfil h1 {
-        margin: 0 0 0 20%;
-        font-size: 140%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: 13em;
+        font-size: 160%;
     }
 
     #perfil p {
         font-style: italic;
-        margin: 5% 10% 0 10%;
+        margin: 5% 5% 0 5%;
         font-size: 100%;
-        text-align: left;
-
     }
 
 
@@ -280,10 +297,10 @@
 
     #perfil img {
         display: flex;
-        margin-top: 15%;
-        margin-bottom: 5%;
-        margin-left: 70%;
-        margin-right: auto;
+        margin-top: 10rem;
+        margin-bottom: 1rem;
+        margin-left: auto;
+        margin-right: 200px;
         width: 15%;
         border: 3px solid rgb(225, 225, 225);
         border-radius: 100%;
@@ -291,20 +308,24 @@
 
     #perfil h2 {
         color: rgba(83, 218, 0, 0.9);
-        margin: -15% 0 0 24%;
-        font-size: 250%;
+        text-align: center;
+        margin-top: -3em;
+        margin-left: auto;
+        margin-right: 7.6em;
+        font-size: 300%;
     }
 
     #perfil h1 {
-        margin: 0 0 0 20%;
-        font-size: 200%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: 13em;
+        font-size: 180%;
     }
 
     #perfil p {
         font-style: italic;
-        margin: 8% 10% 0 10%;
-        font-size: 100%;
-        text-align: left;
+        margin: 5% 5% 0 5%;
+        font-size: 130%;
     }
 
 
@@ -319,31 +340,35 @@
 
     #perfil img {
         display: flex;
-        margin-top: 10%;
-        margin-bottom: 10%;
-        margin-left: 70%;
-        margin-right: auto;
-        width: 10%;
+        margin-top: 14rem;
+        margin-bottom: 1rem;
+        margin-left: auto;
+        margin-right: 500px;
+        width: 12%;
         border: 3px solid rgb(225, 225, 225);
         border-radius: 100%;
     }
 
     #perfil h2 {
         color: rgba(83, 218, 0, 0.9);
-        margin: -17% 0 0 30%;
-        font-size: 400%;
+        text-align: center;
+        margin-top: -3em;
+        margin-left: auto;
+        margin-right: 7.6em;
+        font-size: 500%;
     }
 
     #perfil h1 {
-        margin: 0 0 0 29%;
-        font-size: 250%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: 13em;
+        font-size: 300%;
     }
 
     #perfil p {
         font-style: italic;
-        margin: 5% 10% 0 10%;
-        font-size: 180%;
-        text-align: left;
+        margin: 5% 5% 0 5%;
+        font-size: 220%;
     }
 
 
