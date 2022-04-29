@@ -467,8 +467,8 @@ body {
 
     .Card p {
         font-style: italic;
-        text-align: start;
-        margin-left: 3%;
+        text-align: center;
+        margin-left: 7%;
     }
 
 }
@@ -522,7 +522,7 @@ body {
 
     .Card p {
         font-style: italic;
-        text-align: start;
+        text-align: center;
         margin-left: 3%;
         margin-top: 5%;
     }
@@ -578,7 +578,7 @@ body {
 
     .Card p {
         font-style: italic;
-        text-align: start;
+        text-align: center;
         margin-left: 3%;
     }
 
@@ -629,8 +629,8 @@ body {
 
     .Card p {
         font-style: italic;
-        text-align: start;
-        margin-left: 3%;
+        text-align: center;
+        margin-left: 2%;
     }
 
 }
@@ -1171,7 +1171,7 @@ body {
     }
 
     #linkedinIcon {
-        margin: 10% 0 0 -240%;
+        margin: 10% 0 0 -243%;
     }
 
     #linkedinIcon:hover {
@@ -1179,7 +1179,7 @@ body {
     }
 
     #wppIcon {
-        margin: 10% 0 0 -187%;
+        margin: 10% 0 0 -193%;
 
     }
 
@@ -1376,7 +1376,7 @@ body {
     }
 
     #wppIcon {
-        margin: 0 0 0 -152%;
+        margin: 0 0 0 -150%;
 
     }
 
