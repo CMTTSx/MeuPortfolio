@@ -4,82 +4,474 @@
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="./css/styles.css">
     <title>Calil Sousa Mattos | Programador Web e Mobile</title>
     <meta name="description" content="Calil Sousa Mattos | Portfolio | Sites | Sistemas | Loja Virtual | Aplicativos">
     <meta name="keywords"
         content="Portfolio, Calil Sousa Mattos, Programador, Lojas Virtuais, Aplicativos, Sistemas, MongoDB, ExpressJS, ReactJS, NodeJS, Javascript, JS">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+    <link rel="icon" type="image/x-icon" href="./src/meee.jpeg">
 
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+      <!-- Font Awesome -->
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+   integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
 </head>
 
 <body>
 
 
-    <!----------------------------NAVBAR---------------------------------->
+    <!-----------------------------NAVBAR---------------------------------->
 
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">HOME</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#servicos">SERVIÇOS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#habilidades">HABILIDADES</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">PORTFOLIO</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#Contato">CONTATO</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./EN-US.html">
-                            <img id="traducao" src="./src/euaflag.png" alt="traducao-EN-US">
-                        </a>
-                    </li>
-                </ul>
-            </div>
+    <nav class=" navbar navbar-expand-lg navbar-light fixed-top ">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#servicos">Serviços</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#habilidades">Habilidades</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contato">Contato</a>
+              </li>
+            <li class="nav-item">
+            <a class="nav-link" href="./EN-US.html">
+                <img id="traducao" src="./src/euaflag.png" alt="traducao-en-us">
+            </a>
+            </li>
+          </ul>
         </div>
-    </nav>
+      </nav>
     
-    <!----------------------------PERFIL---------------------------------->
+    <!-----------------------------PERFIL---------------------------------->
 
     <div id="perfil">
-        <img src="./src/meee.jpeg" alt="Perfil-do-desenvolvedor">
+        <img src="./src/meee.jpeg" alt="Perfil-do-desenvolvedor" width="40%">
         <h2>CALIL SOUSA MATTOS</h2>
-        <h1>Desenvolvedor Fullstack Web e Mobile</h1>
-        <p class="mb-0">“Desenvolvedor que atua de ponta-a-ponta desde o Front-End, Banco de
+        <h3>Desenvolvedor Fullstack Web e Mobile</h3>
+        <p>“Desenvolvedor que atua de ponta-a-ponta desde o Front-End, Banco de
             Dados, Back-End e Mobile. Sempre alinhando os estudos de novas tecnologias, vindo a aplicar todos os
             conceitos
             aprendidos em seus sistemas e aplicações. ”</p>
     </div>
 
+    <!-----------------------------SERVIÇOS-------------------------------->
+    <h2 class="tituloh2">SERVIÇOS</h2>
+
+    <div id="servicos">
+
+        <div class="d-flex justify-content-center flex-wrap ">
+
+            <div class="Card">
+                <img src="./src/Front_End_Icon.png" alt="front-end-icon" width="30%">
+                <h4>DESENVOLVEDOR FRONT-END</h4>
+                <p>Atua desenvolvendo a interface
+                    (telas do aplicativo), toda a lógica de alto nível da
+                    aplicação como login, persistência de dados local, faz acesso aos endpoints que o webservice provê e
+                    mostra tudo ao usuário.</p>
+            </div>
+
+            <div class="Card">
+                <img src="./src/BackEnd_Icon.png" alt="back_end_icon" width="30%">
+                <h4>DESENVOLVEDOR BACK-END</h4>
+                <p>Atua no back-end encarregado de fazer
+                    o planejamento, a construção, a implementação e a manutenção da estrutura tecnológica que constituem a
+                    base de um site. Sem esse trabalho, nada na internet pode funcionar, já que tudo está integrado ao
+                    mecanismo conectado aos servidores.</p>
+            </div>
+
+            <div class="Card">
+                <img src="./src/ecommerce_Icon.png" alt="ecommerce_Icon" width="40%">
+                <h4>ECOMMERCE / LOJA VIRTUAL</h4>
+                <p>Desenvolvendo tanto a Interface
+                    Gráfica quanto a parte Lógica. Criando assim uma plataforma perfeita para que seu negócio possa
+                    crescer sustentável com todo o suporte que você precisa, e com Economia de tempo e Redução de Custos.
+                </p>
+            </div>
+
+            <div class="Card">
+                <img src="./src/especialista-seo.svg" alt="especialista" width="50%">
+                <h4>ESPECIALISTA EM SEO</h4>
+                <p>Posicionando sites por meio de determinadas palavras-chave na primeira
+                    página dos mecanismos de pesquisa (Google, Bing, Yahoo, etc.), aplicando estratégias complexas e
+                    viáveis para a adequação aos algoritmos dos motores de busca.</p>
+            </div>
+
+            <div class="Card">
+                <img src="./src/appBuilder.jpg" alt="desenvolvedor-mobile" width="50%">
+                <h4>DESENVOLVEDOR DE APLICATIVOS</h4>
+                <p>Programa, codifica e testa nas plataformas Android e
+                    iOS. Executa a
+                    manutenção dos sistemas, fazendo eventuais correções necessárias, visando atender às necessidades dos
+                    usuários. Desenvolve trabalhos de montagem, depuração e testes de programas, executando serviços de
+                    manutenção nos programas já desenvolvidos.</p>
+            </div>
+
+            <div class="Card">
+                <img src="./src/uiux.png" alt="ui-ux" width="45%">
+                <h4>UI | UX</h4>
+                <p>O UI Design tem como principal foco a interface de um determinado aplicativo ou site,
+                o UX Design observa esse e outros aspectos, que vão desde o caminho que um usuário faz para chegar ao seu objetivo final até experiências anteriores que uma pessoa teve com aquele produto ou serviço, que podem impactar.</h5>
+
+            </div>
+
+            <div class="Card">
+                <img src="./src/DESENVOLVIMENTO_DE_SISTEMAS_WEB.png" alt="desenvolvimento_de_sistemas_web" width="35%">
+                <h4>DESENVOLVIMENTO DE SISTEMAS</h4>
+                <p>Criação de Sistemas e ERP’s, totalmente customizados.
+                    Auxilia o gestor da empresa a melhorar os
+                    processos internos e integrar as atividades de diferentes setores, como vendas, finanças, estoque e
+                    recursos humanos.
+                    O resultado é o acesso a insights
+                    valiosos, que contribuem para uma tomada de decisão acertada.</p>
+            </div>
+
+            <div class="Card">
+                <img src="./src/criacao-de-hotsite-1.png" alt="criacao-de-sites-e-hotsites" width="40%">
+                <h4>CRIAÇÃO DE SITES E HOTSITES</h4>
+                <p> Desenvolvedor de Sites e Hotsites, usando das
+                    melhores práticas e tecnologias. Com Layout Profissional e Responsivo, e com todas as características
+                    e necessidades do cliente.
+                </p>
+            </div>
+
+            <div class="Card">
+                <img src="./src/landingpage1-1.png" alt="Landing Pages" width="35%" />
+                <h4>CRIAÇÃO DE LANDING PAGES</h4>
+                <p>Landing Page é uma página que possui todos os
+                   elementos voltados à conversão do visitante em Lead, oportunidade ou cliente. Também conhecidas como
+                   páginas de aterrissagem ou páginas de conversão, as Landing Pages são muito usadas em campanhas de
+                   Marketing Digital, pois costumam ter altas taxas de conversão.</p>
+             </div>
+
+        </div>
+
+    </div>
+
+    <!----------------------------HABILIDADES-------------------------------->
+    <h2 id="habilidades" class="tituloh2">HABILIDADES</h2>
+
+    <h2 id="titulohabilidades">FRONT-END</h2>
+
+    <div class="d-flex flex-wrap">
+
+        <div class="card" title="HTML, versão 5, é uma linguagem de marcação de hipertexto para apresentar e estruturar o conteúdo na web.">
+            <img src="./src/html5iconNew.png" alt="html5">
+        </div>
+
+
+        <div class="card" title="Com o CSS, versão 3. Pode-se criar estilos únicos para seus projetos web, alterando diversos aspectos de design no layout da página. ">
+            <img src="./src/css3icon.png" alt="css3">
+        </div>
+
+        <div class="card" title="JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web.">
+            <img src="./src/jsquarter.png" alt="JavaScript">
+        </div>
+
+        <div class="card" title="O React é uma biblioteca JavaScript de código aberto com foco em criar interfaces de usuário em páginas web. ">
+            <img src="./src/reactIcon.png" alt="reactjs">
+        </div>
+
+
+        <div class="card"title="Next.js é uma estrutura da web de desenvolvimento front-end React de código aberto criada por Vercel que permite funcionalidades como renderização do lado do servidor e geração de sites estáticos para aplicativos da web baseados em React">
+            <img src="./src/nextjs_logo.png" alt="nextjs">
+        </div>
+
+        <div class="card" title="Componentes com estilo permite que você use a sintaxe CSS real dentro de seus componentes. Componentes com estilo é uma variante do “CSS-in-JS” – que resolve muitos dos problemas com o CSS tradicional. Um dos problemas mais importantes que eles resolvem são as colisões de nomes de seletores. Com CSS tradicional, você deve ter cuidado para não sobrescrever seletores CSS usados em outro lugar em um site porque todos os seletores CSS vivem no mesmo namespace global. Essa restrição infeliz pode levar a esquemas de nomenclatura de seletor elaborados (e muitas vezes confusos).">
+            <img src="./src/styledComponents.png" alt="styledComponents">
+        </div>
+
+        <div class="card" title="Bootstrap é um framework web com código-fonte aberto para desenvolvimento de componentes de interface e front-end para sites e aplicações web usando HTML, CSS e JavaScript, baseado em modelos de design para a tipografia, melhorando a experiência do usuário em um site amigável e responsivo.">
+            <img src="./src/bootstrap_icon.png" alt="bootstrap">
+        </div>
+
+    </div>
+
+    <h2 id="titulohabilidades">BANCO DE DADOS E SUAS TECNOLOGIAS</h2>
+
+    <div class="d-flex  flex-wrap ">
+
+        <div class="card" title="O MySQL é um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface. É atualmente um dos sistemas de gerenciamento de bancos de dados mais populares da Oracle Corporation, com mais de 10 milhões de instalações pelo mundo.">
+            <img src="./src/MySQL-Logo.wine_.png" alt="mysql">
+        </div>
+
+        <div class="card" title="PostgreSQL é um sistema gerenciador de banco de dados objeto relacional, desenvolvido como projeto de código aberto.">
+            <img src="./src/postgresql_icon.png" alt="postgres">
+        </div>
+
+        <div class="card" title="MongoDB é um software de banco de dados orientado a documentos livre, de código aberto e multiplataforma. Classificado como um programa de banco de dados NoSQL, o MongoDB usa documentos semelhantes a JSON com esquemas.">
+            <img src="./src/mongodb_icon.png" alt="mongodb">
+        </div>
+
+        <div class="card" title="O Sequelize é um ORM(Object/Relational Mapper) baseado em Promise para Node. js e io. js, e suporta os dialetos PostgreSQL, MySQL, MariaDB, SQLite e MSSQL e recursos a transação, relacionamentos, replicação de leitura e muito mais.">
+            <img src="./src/sequelizeicon.png" alt="sequelize">
+        </div>
+
+        <div class="card" title="O Mongoose é um ODM e fornece uma solução direta e baseada em esquema para modelar seus dados de aplicativos. Ele inclui conversão de tipo integrada, validação, criação de consulta, ganchos de lógica de negócios e muito mais, prontos para uso.">
+            <img src="./src/mongoose.jpg.png" alt="mongoose">
+        </div>
+
+        <div class="card" title="Firebase é uma plataforma desenvolvida pelo Google para a criação de aplicativos móveis e da web. Era originalmente uma empresa independente fundada em 2011. Em 2014, o Google adquiriu a plataforma e agora é sua oferta principal para o desenvolvimento de aplicativos.">
+            <img src="./src/firebase.png" alt="firebase">
+        </div>
+
+    </div>
+
+    <h2 id="titulohabilidades">BACK-END</h2>
+
+    <div class="d-flex flex-wrap ">
+
+        <div class="card" title="Node.js é um software de código aberto, multiplataforma, baseado no interpretador V8 do Google e que permite a execução de códigos JavaScript fora de um navegador web.">
+            <img src="./src/nodejs.jpg" alt="nodejs">
+        </div>
+
+        <div class="card" title="Express.js é um framework para Node.js que fornece recursos mínimos para construção de servidores web. Foi lançado como software livre e de código aberto sob a Licença MIT. É um dos mais populares frameworks para servidores em Node.js.">
+            <img src="./src/expressjsicon.png" alt="expressjs">
+        </div>
+
+        <div class="card" title="API RESTful é uma interface que fornece dados em um formato padronizado baseado em requisições HTTP. Ela fornece dados para essas aplicações, facilitando o cadastro e o acesso. API RESTful fica parada até que acontece uma requisição.">
+            <img src="./src/apirest_icon-1.png" alt="api_rest">
+        </div>
+
+        <div class="card" title="O Google Cloud Platform possibilita a criação de aplicativos e sites web mais otimizados, resultando no crescimento do seu negócio. Assim, a empresa pode desenvolver funções com finalidades únicas, capazes de responder aos eventos em nuvem.">
+            <img src="./src//google_cloud.png" alt="google_cloud">
+        </div>
+
+        <div class="card" title="A Amazon Web Services (ou AWS) existe de 2006 e oferece serviços de infraestrutura de TI para empresas por meio de serviços web – a chamada computação na nuvem, que nos dá a chance de trocar altos gastos com infraestrutura por preços que cabem no bolso.">
+            <img src="./src/aws_icon.png" alt="amazon-web-service">
+        </div>
+
+        <div class="card" title="Heroku é uma plataforma em nuvem como um serviço que suporta várias linguagens de programação. Uma das primeiras plataformas em nuvem, o Heroku está em desenvolvimento desde junho de 2007, quando suportava apenas a linguagem de programação Ruby, mas agora suporta Java, Node.js, Scala, Clojure, Python, PHP e Go.">
+            <img src="./src/heroku.png" alt="heroku">
+        </div>
+
+        <div class="card" title="npm é um gerenciador de pacotes para o Node.JS npm, Inc. é uma subsidiária do GitHub, que fornece hospedagem para desenvolvimento de software e controle de versão com o uso do Git. npm é o gerenciador de pacotes padrão para o ambiente de tempo de execução JavaScript Node.js.">
+            <img src="./src/npmicon.png" alt="gerenciador-de-pacotes-npm">
+        </div>
+
+        <div class="card" title="Yarn é um sistema de empacotamento de software desenvolvido em 2016 pelo Facebook para Node.js JavaScript runtime environment que fornece velocidade, consistência, estabilidade e segurança como uma alternativa ao npm (gerenciador de pacotes). ">
+            <img src="./src/yarnicon.png" alt="yarnicon">
+        </div>
+
+    </div>
+        
+    <h2 id="titulohabilidades">DESENVOLVIMENTO MOBILE</h2>
+    
+    <div class="d-flex flex-wrap ">
+
+        <div class="card" title="React Native é uma biblioteca Javascript criada pelo Facebook. É usada para desenvolver aplicativos para os sistemas Android e iOS de forma nativa.">
+            <img src="./src/reactnative.png" alt="react-native">
+        </div>
+
+        
+    </div>
+        
+    <h2 id="titulohabilidades">TECNOLOGIAS E CONCEITOS RELACIONADOS</h2>
+
+    <div class="d-flex justify-content-start flex-wrap ">
+
+        <div class="card" title="A prototipagem é a quarta e última fase do processo de Design Thinking e tem como função validar as ideias geradas na fase anterior, a Ideação. É o momento de unir propostas, refinar conceitos e colocar a mão na massa. Seu objetivo é revelar problemas de design, usabilidade ou adequação.">
+            <img src="./src/protolayout.png" alt="prototipagem">
+        </div>
+
+        <div class="card" title="A usabilidade visa assegurar que produtos sejam fáceis de aprender a usar, eficazes e agradáveis, sempre na perspectiva do usuário. Não é apenas facilidade de uso, mas também trazer algo significativo, tendo um objetivo em comum com o usuário.">
+            <img src="./src/usabilidade_icon.png" alt="usabilidade_icon">
+        </div>
+
+        <div class="card" title="No contexto do software, o teste de acessibilidade é um processo para avaliar a usabilidade do sistema por pessoas que enfrentam algum tipo de restrição que podem ser permanentes, como uma deficiência, temporárias, como um dedo quebrado ou situacionais, como usar a aplicação enquanto segura uma criança.">
+            <img src="./src/acessibilidade.png" alt="acessibilidade_icon">
+        </div>
+
+        <div class="card" title="Figma é um editor gráfico de vetor e prototipagem de projetos de design baseado principalmente no navegador web, com ferramentas offline adicionais para aplicações desktop para GNU/Linux, macOS e Windows.">
+            <img src="./src/figma_icon-1.png" alt="figma_icon">
+        </div>
+
+        <div class="card" title="GitHub é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git. Ele permite que programadores, utilitários ou qualquer usuário cadastrado na plataforma contribuam em projetos privados e/ou Open Source de qualquer lugar do mundo.">
+            <img src="./src/GitHub.jpg" alt="github_icon">
+        </div>
+
+        <div class="card" title="Adobe Photoshop é um software caracterizado como editor de imagens bidimensionais do tipo raster desenvolvido pela Adobe Systems. É considerado o líder no mercado dos editores de imagem profissionais, assim como o programa de facto para edição profissional de imagens digitais e trabalhos de pré-impressão.">
+            <img src="./src/photoshop.png" alt="photoshop_icon">
+        </div>
+
+        <div class="card" title="Linux é um termo popularmente empregado para se referir a sistemas operativos ou sistemas operacionais que utilizam o Kernel Linux. O núcleo foi desenvolvido pelo programador finlandês Linus Torvalds, inspirado no sistema Minix.">
+            <img src="./src/Linux2.jpg" alt="linux_icon">
+        </div>
+
+    </div>
+
+    
+
+    <!----------------------------PORTFOLIO-------------------------------->
+    <h2 class="tituloh2" >PORTFOLIO</h2>
+
+    <div id="portfolio">
+
+
+        <div class="row" id="portfolioTab">
+           <div class="col-md-3">
+              <!-- Tabs nav -->
+              <div class="nav flex-column nav-pills nav-pills-custom" id="v-pills-tab" role="tablist"
+                 aria-orientation="vertical">
+                 <a class="nav-link mb-3 p-3 shadow active" id="v-pills-home-tab" data-toggle="pill"
+                    href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">
+                    <i class="fas fa-list-ul m-1"></i>
+                    <span class="font-weight-bold small text-uppercase">TODOS</span></a>
+
+                 <a class="nav-link mb-3 p-3 shadow" id="v-pills-profile-tab" data-toggle="pill"
+                    href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+                    <i class="far fa-file  m-1"></i>
+                    <span class="font-weight-bold small text-uppercase">Sites</span></a>
+
+                 <a class="nav-link mb-3 p-3 shadow" id="v-pills-messages-tab" data-toggle="pill"
+                    href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">
+                    <i class="fa fa-star  m-1"></i>
+                    <span class="font-weight-bold small text-uppercase">Sistemas</span></a>
+
+                 <a class="nav-link mb-3 p-3 shadow" id="v-pills-settings-tab" data-toggle="pill"
+                    href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">
+                    <i class="fas fa-mobile  m-1"></i>
+                    <span class="font-weight-bold small text-uppercase">Aplicativos</span></a>
+
+                 <a class="nav-link mb-3 p-3 shadow" id="v-pills-settings-tab" data-toggle="pill"
+                    href="#v-pills-ecommerce" role="tab" aria-controls="v-pills-settings" aria-selected="false">
+                    <i class="fas fa-store  m-1"></i>
+                    <span class="font-weight-bold small text-uppercase">E-COMMERCE</span></a>
+
+                 <a class="nav-link mb-3 p-3 shadow" id="v-pills-settings-tab" data-toggle="pill"
+                    href="#v-pills-landingpage" role="tab" aria-controls="v-pills-settings" aria-selected="false">
+                    <i class="fa fa-check  m-1"></i>
+                    <span class="font-weight-bold small text-uppercase">LANDING PAGES</span></a>
+              </div>
+           </div>
+
+
+           <div class="col-md-9">
+              <!-- Tabs content -->
+              <div class="tab-content" id="v-pills-tabContent">
+                 <div class="tab-pane fade shadow rounded bg-white show active p-5" id="v-pills-home" role="tabpanel"
+                    aria-labelledby="v-pills-home-tab">
+                    <h4 class="font-italic mb-4">TODOS</h4>
+                    <img  id="imagem1-todos" src="./src/freterapidosite.png" alt="SiteFreteRápido">
+                    <img id="imagem2-todos" src="./src/CORTE_FINAL_GIRO_CERTO.png" alt="appmobile">
+                    <img id="imagem5-todos" src="./src/Preview_Final.png" alt="aplicativo2">
+                    <img id="imagem3-todos" src="./src/tela_sistema.png" alt="sistemaOdontoCareSystem">
+                    <img id="imagem4-todos" src="./src/ecommerce_pic.png" alt="ecommerce">
+  
 
 
 
+                 </div>
+
+                 <div class="tab-pane fade shadow rounded bg-white p-5" id="v-pills-profile" role="tabpanel"
+                    aria-labelledby="v-pills-profile-tab">
+                    <h4 class="font-italic mb-4">Sites</h4>
+                    <img id="site1" src="./src/freterapidosite.png" alt="SiteFreteRápido">
+
+                 </div>
+
+                 <div class="tab-pane fade shadow rounded bg-white p-5" id="v-pills-messages" role="tabpanel"
+                    aria-labelledby="v-pills-messages-tab">
+                    <h4 class="font-italic mb-4">Sistemas</h4>
+                    <img  id="sistema1" src="./src/tela_sistema.png" alt="">
+                 </div>
+
+                 <div class="tab-pane fade shadow rounded bg-white p-5" id="v-pills-settings" role="tabpanel"
+                    aria-labelledby="v-pills-settings-tab">
+                    <h4 class="font-italic mb-4">Aplicativos</h4>
+                    <img id="aplicativo1" src="./src/CORTE_FINAL_GIRO_CERTO.png" alt="">
+                    <img id="aplicativo2" src="./src/Preview_Final.png" alt="aplicativo2">
+
+                 </div>
+
+                 <div class="tab-pane fade shadow rounded bg-white p-5" id="v-pills-ecommerce" role="tabpanel"
+                    aria-labelledby="v-pills-settings-tab">
+                    <h4 class="font-italic mb-4">E-Commerce</h4>
+                    <img id="ecommerce1" src="./src/ecommerce_pic.png" alt="">
+                 </div>
+
+                 <div class="tab-pane fade shadow rounded bg-white p-5" id="v-pills-landingpage" role="tabpanel"
+                    aria-labelledby="v-pills-settings-tab">
+                    <h4 class="font-italic mb-4">Landing Pages</h4>
+                    <img id="lp1" src="./src/quanto-sobra-1manha_landingpage-1mod.png" alt="">
+                    <img id="lp2" src="./src/superbom-landing-page-601x720.pngmod.png" alt="">
+
+                 </div>
+              </div>
+           </div>
+        </div>
+     </div>
 
 
+    
+    
+    
+    <!----------------------------CONTATO-------------------------------->
 
-    <!-- Optional JavaScript; choose one of the two! -->
+    <div id="contato">
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
+        <h2>Entre em Contato</h2>
+
+        <div class="container-footer" 
+        title="Utilize preferencialmente o email para contato.
+        Se você tem um projeto ou precisa de algum serviço específico, mande todas informações possíveis para agilizar o atendimento.">
+            <i id="email" style="color: rgb(223, 0, 0);" class="fas fa-envelope-square fa-3x"></i>
+            <a href="mailto:contatocsmpm@gmail.com">contatocsmpm@gmail.com</a>
+
+        </div>
+
+        <div class="container-footer"
+        title="Utilize preferencialmente para ver sobre meus feitos,tecnologias relacionadas e me acompanhar no dia a dia profissionalmente. ">
+            <i id="linkedinIcon" style="color:rgb(0, 132, 255)" class="fab fa-linkedin fa-3x"></i>
+            <a href="https://www.linkedin.com/in/calil-mattos-56b768169/">Linkedin</a>
+
+        </div>
+      
+        <div class="container-footer" title="Utilize para entrar em contato em horário comercial, estou aberto a preferencialmente chats. No momento certo atendo a todos os interessados. ">
+
+            <i id="wppIcon" style="color:rgba(0, 218, 62, 0.893)" class="fab fa-whatsapp  fa-3x"></i>
+            <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5563992441370">Entre em
+                Contato</a>
+        </div>
+
+
+        </div>
+
+     </div>
+
+    <!----------------------------FOOTER-------------------------------->
+    <footer class=" d-flex flex-column align-items-center">
+    
+    <h6> © CSM SOLUÇÕES TECNOLÓGICAS E DESENVOLVIMENTO. Todos Direitos Reservados. 2022.
+    </h6>
+
+    <h6>
+        Aceito pagamento em:
+    </h6>
+
+    <img src="./src/btcIcon.png" alt="pagamento-em-btc">
+
+     </footer>
+
+     
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 
 </html>
