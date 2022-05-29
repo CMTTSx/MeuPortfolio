@@ -1401,7 +1401,7 @@ body {
     
     #contato h2 {
         text-align: center;
-        margin: 10% 0 0 8%;
+        margin: 4% 0 0 8%;
         font-size: 3em;
         cursor: pointer;
     }
@@ -1530,7 +1530,7 @@ body {
         font-size: 18px;
         font-weight: lighter;
         text-align: center;
-
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
     footer img {
@@ -1552,6 +1552,7 @@ body {
         font-size: 18px;
         font-weight: lighter;
         text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
     }
 
@@ -1574,6 +1575,7 @@ body {
         font-size: 18px;
         font-weight: lighter;
         text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
     }
 
@@ -1596,6 +1598,7 @@ body {
         font-size: 28px;
         font-weight: lighter;
         text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
     }
 
