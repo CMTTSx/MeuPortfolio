@@ -713,8 +713,8 @@ body {
     }
 
     .card {
-        width: 10%;
-        height: 40%;
+        width: 150px;
+        height: 150px;
         margin: 5% 0 0 8%;
         cursor: pointer;
     }
@@ -723,11 +723,6 @@ body {
         transform: scale(1.2);
     }
 
-    .card img {
-        width: 150px;
-        height: 150px;
-        
-    }
 
 
    
