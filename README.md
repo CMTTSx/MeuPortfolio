@@ -12,5 +12,5 @@ Projeto sistema. versão básica para demonstração de habilidade nas tecnologi
 
 1-HTML
 2-CSS
-3-JAVASCRIPT PURO
+3-JAVASCRIPT PURO / JQUERY
 4-BOOTSTRAP
